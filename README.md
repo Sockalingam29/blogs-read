@@ -1,5 +1,19 @@
 # blogs-read
 <details>
+  <summary>Circuit Breaker Pattern (Design Patterns for Microservices)</summary>
+
+  https://medium.com/geekculture/design-patterns-for-microservices-circuit-breaker-pattern-276249ffab33
+
+</details>
+
+<details>
+  <summary>Understanding IAM roles for service accounts, IRSA, on AWS EKS.</summary>
+
+  https://medium.com/@ankit.wal/the-how-of-iam-roles-for-service-accounts-irsa-on-aws-eks-3d76badb8942
+
+</details>
+
+<details>
   <summary>The What, Why, and How of Mastering App Size</summary>
 
 https://engineering.atspotify.com/2023/11/the-what-why-and-how-of-mastering-app-size/
@@ -7,6 +21,8 @@ https://engineering.atspotify.com/2023/11/the-what-why-and-how-of-mastering-app-
 This was a blog on why app size matters on Spotify’s tech page. They briefed how each PR goes through a CI that checks for the change in the app size. It was really useful and I hope I read more such blogs on a daily basis.
 
 </details>
+
+
 <details>
   <summary>How Instagram scaled to 14 million users with only 3 engineers</summary>
 
@@ -15,6 +31,8 @@ https://read.engineerscodex.com/p/how-instagram-scaled-to-14-million#:~:text=Ins
 It was a great read. They stuck with 3 principles – keep things simple, don’t re-invent the wheel, use proven technologies.
 
 </details>
+
+
 <details>
   <summary>Twitter's Recommendation Algorithm</summary>
 
