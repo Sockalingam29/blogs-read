@@ -1,5 +1,14 @@
 # blogs-read
 <details>
+  <summary>How Discord stores trillions of messages</summary>
+
+  https://discord.com/blog/how-discord-stores-trillions-of-messages 
+
+  Discord migrated their entire DB from Cassandra to ScyllaDB. Cassandra had latency issues, garbage collector (GC) pauses and other issues. They also faced a problem which they termed as Hot Partition. ScyllaDB was compatible with Cassandra and was written in Cpp. So it didn't have issues with GC. I thought GCs were an advantage of Java, but turns out they aren't that great when it comes to large scale realtime systems. Discord also wrote a data service in between the API and the DB. It was written with Rust because of its speed, safety and concurrency performance. This service avoids multiple concurrent calls (for example, when a message with @everyone is sent) to the same DB by creating a worker task only for the first request. The subsequent reqeuests subscribe to the response of the worker task and so the DB is actually fetched only once. 
+
+</details>
+
+<details>
   <summary>Circuit Breaker Pattern (Design Patterns for Microservices)</summary>
 
   https://medium.com/geekculture/design-patterns-for-microservices-circuit-breaker-pattern-276249ffab33
