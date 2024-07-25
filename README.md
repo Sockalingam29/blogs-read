@@ -1,5 +1,13 @@
 # blogs-read
 <details>
+  <summary>From Native to React Native to Flutter</summary>
+  Zerodha has a 2-member mobile dev team. They initally had their apps in native Android and webview runtime in iOS. As it was very difficult to maintain, they moved to React Native. But it came with its fair share of issues. It was first published for iOS. The app was smooth on iOS but not so much on Android, especially in the midrange and budget smartphones. Flutter was in alpha stage at this point and the team took the risk of using it considering it solves many of their issues and they were able to see a future for Flutter. Also went through an issues page fully on GitHub which Ajin Asokan (the author) raised saying that Flutter apps weren't running at max fps on high refresh rate mobiles. It stuck to 60fps. They had to manually do a step to force it to 90 or 120fps. Ajin wrote an external library to solve this issue at the end of the conversations as the Flutter team didn't have the bandwidth to do it. 
+
+  https://zerodha.tech/blog/from-native-to-react-native-to-flutter/
+
+</details>
+
+<details>
   <summary>How Discord stores trillions of messages</summary>
 
   https://discord.com/blog/how-discord-stores-trillions-of-messages 
