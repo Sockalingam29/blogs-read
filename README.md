@@ -35,7 +35,7 @@
 
 https://engineering.atspotify.com/2023/11/the-what-why-and-how-of-mastering-app-size/
 
-This was a blog on why app size matters on Spotify’s tech page. They briefed how each PR goes through a CI that checks for the change in the app size. It was really useful and I hope I read more such blogs on a daily basis.
+This was a blog on why app size matters on Spotify’s tech page. They briefed how each PR goes through a CI that checks for the change in the app size.
 
 </details>
 
