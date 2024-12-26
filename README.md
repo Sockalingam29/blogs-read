@@ -1,5 +1,21 @@
 # blogs-read
 <details>
+  <summary>Cognitive load is what matters</summary>
+  People can only process 4 chunks of memory at a moment. So its essential for our projects to extraneous cognitive load. 
+  <ul style="margin-left:10px">
+     <li>Use intermediate variables instead of if-else hell</li>
+     <li>Composition > Inheritance</li>
+     <li>Write deep modules instead of shallow modules. </li>
+     <li>It is not necessary to use all the latest features of a language or framework.</li>
+    <li>Layered architecture - having different layers for Dao, service, UI - might be a bit useful when we want to migrate, like switch from one DB to another. But it won't always be useful, rather add a lot of complexities (interaction between layers, etc)</li>
+    <li>Domain driven development is for the problem space and don't use it to devise the solution space</li>
+    <li>Don't tightly couple your code with the framework used. In the long run, our code and architecture will become too much dependent on the framework that if we aren't able to fit our architecture at some point, we'll have to fork a version of that framework and start maintaing it. </li>
+   </ul> 
+
+  https://minds.md/zakirullin/cognitive
+
+</details>
+<details>
   <summary>From Native to React Native to Flutter</summary>
   Zerodha has a 2-member mobile dev team. They initally had their apps in native Android and webview runtime in iOS. As it was very difficult to maintain, they moved to React Native. But it came with its fair share of issues. It was first published for iOS. The app was smooth on iOS but not so much on Android, especially in the midrange and budget smartphones. Flutter was in alpha stage at this point and the team took the risk of using it considering it solves many of their issues and they were able to see a future for Flutter. Also went through an issues page fully on GitHub which Ajin Asokan (the author) raised saying that Flutter apps weren't running at max fps on high refresh rate mobiles. It stuck to 60fps. They had to manually do a step to force it to 90 or 120fps. Ajin wrote an external library to solve this issue at the end of the conversations as the Flutter team didn't have the bandwidth to do it. 
 
