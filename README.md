@@ -1,5 +1,12 @@
 # blogs-read
 <details>
+  <summary>Coinbase - A postmortem of our May 7, 2026 outage</summary>
+  Coinbase was down for several hours and they didn't have an automated redirection to a failover region. They had to do "code changes" to route traffic to another region. Plus there was another issue with Kafka hosted on AWS. 
+
+  https://www.coinbase.com/en-gb/blog/a-postmortem-of-our-may-7-2026-outage
+
+</details>
+<details>
   <summary>Cognitive load is what matters</summary>
   People can only process 4 chunks of memory at a moment. So its essential for our projects to extraneous cognitive load. 
   <ul style="margin-left:10px">
